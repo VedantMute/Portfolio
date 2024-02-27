@@ -34,28 +34,29 @@ function Navbar({ className }: { className?: string }) {
         <MenuItem setActive={setActive} active={active} item="Projects">
           <div className="  text-sm grid grid-cols-2 gap-10 p-4">
             <ProductItem
-              title="Algochurn"
+              title="Project1"
               href="#"
               src="#"
-              description="Prepare for tech interviews like never before."
+              description="Sample project will be displayed here."
+              
             />
             <ProductItem
-              title="Tailwind Master Kit"
+              title="Project1"
               href="#"
               src="#"
-              description="Production ready Tailwind css components for your next project"
+              description="Sample project will be displayed here."
             />
             <ProductItem
-              title="Moonbeam"
+              title="Project1"
               href="#"
               src="#"
-              description="Never write from scratch again. Go from idea to blog in minutes."
+              description="Sample project will be displayed here."
             />
             <ProductItem
-              title="Rogue"
+              title="Project1"
               href="#"
               src="#"
-              description="Respond to government RFPs, RFIs and RFQs 10x faster using AI"
+              description="Sample project will be displayed here."
             />
           </div>
         </MenuItem>

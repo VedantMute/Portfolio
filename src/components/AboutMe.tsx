@@ -17,7 +17,7 @@ const AboutMe = () => {
         {/* Right Div Content */}
        <TextGenerateEffect words={words} />
         <div className="flex justify-between  mx-10 p-7">
-        <div className="boxes p-7 border rounded-lg  border-gray-400"><div className='text-center text-5xl mb-2'>1</div><div className='text-center'>Internship</div></div>
+        <div className="boxes p-7 border rounded-lg  border-gray-400"><div className='text-center text-5xl mb-2'>2</div><div className='text-center'>Internship</div></div>
         <div className="boxes p-7 border rounded-lg  border-gray-400"><div className='text-center text-5xl mb-2'>20+</div><div className='text-center'>Projects</div></div>
         <div className="boxes p-7 border rounded-lg  border-gray-400"><div className='text-center text-5xl mb-2'>2</div><div className='text-center'>yrs. Exp.</div></div>
        

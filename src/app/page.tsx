@@ -3,6 +3,7 @@ import { GoogleGeminiEffectDemo } from "@/components/GoogleGeminiEffectDemo";
 import { NavbarDemo } from "@/components/NavbarDemo";
 import { TextGenerateEffectDemo } from "@/components/TextGenerateEffectDemo";
 import AboutMe from "@/components/AboutMe";
+import ScreenFitText from "@/components/ScreenFitText";
 // import Image from "next/image";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <AboutMe/>
       {/* <TextGenerateEffectDemo/> */}
       <GoogleGeminiEffectDemo/>
+      {/* <ScreenFitText/> */}
     </div>
   );
 }

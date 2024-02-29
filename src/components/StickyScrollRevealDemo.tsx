@@ -4,24 +4,24 @@ import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
 
 const content = [
   {
-    title: "Collaborative Editing",
+    title: "Web Developement",
     description:
-      "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity.",
+      "Passionate about crafting responsive and modern websites using HTML, CSS, JavaScript, and React JS. Used many tools like webflow, DhiWise, Acertinity UI , Tailwind CSS to enhance the productivity",
   },
   {
-    title: "Real time changes",
+    title: "JAVA Programming",
     description:
-      "See changes as they happen. With our platform, you can track every modification in real time. No more confusion about the latest version of your project. Say goodbye to the chaos of version control and embrace the simplicity of real-time updates.",
+      "Navigating the Java landscape with a solid foundation in Data Structures and Algorithms (DSA), specializing in the art of JDBC and MySQL",
   },
   {
-    title: "Version control",
+    title: "Data Analyst",
     description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+      "Navigating the Java landscape with a solid foundation in Data Structures and Algorithms (DSA), specializing in the art of JDBC and MySQL",
   },
   {
-    title: "Running out of content",
+    title: "Cloud and AI",
     description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+      "Hands on google cloud through GDSC SCOE. Also profiecient with many AI tools like ChatGPT, Copilot and so on",
   },
 ];
 export function StickyScrollRevealDemo() {

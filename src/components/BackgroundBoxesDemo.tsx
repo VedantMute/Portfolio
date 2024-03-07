@@ -9,11 +9,11 @@ const GradientText = () => {
     linear-gradient(90deg, 
       var(--yellow-300),
         var(--green-300),
-        var(--gray-300),
+        var(--blue-300),
         var(--sky-300),
         var(--purple-300),
         var(--blue-300),
-        var(--indigo-300),
+        var(--blue-300),
         var(--pink-300),
         var(--violet-300)
       )`,

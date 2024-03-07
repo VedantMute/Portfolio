@@ -2,7 +2,8 @@
 import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "@/components/ui/navbar-menu";
 import { cn } from "@/utils/cn";
-
+import Image from "next/image";
+import Link from "next/link";
 export function NavbarDemo() {
   return (
     <div className="relative w-full flex items-center justify-center">
@@ -18,14 +19,10 @@ function Navbar({ className }: { className?: string }) {
       className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
     > 
       <Menu setActive={setActive}>
-        <MenuItem setActive={setActive} active={active} item="About Me">
-          <div className="flex flex-col space-y-4 text-sm">
-           
-          </div>
-        </MenuItem>
+      <Link href="/about">About Me</Link>
         <MenuItem setActive={setActive} active={active} item="Services">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/web-dev">Web Development</HoveredLink>
+            <HoveredLink href="/AboutMe">Web Development</HoveredLink>
             <HoveredLink href="/interface-design">Java Programming</HoveredLink>
             <HoveredLink href="/seo">Data Science</HoveredLink>
             <HoveredLink href="/branding">Designing</HoveredLink>
@@ -35,38 +32,34 @@ function Navbar({ className }: { className?: string }) {
           <div className="  text-sm grid grid-cols-2 gap-10 p-4">
             <ProductItem
               title="Project1"
-              href="#"
-              src="#"
+              href="projects"
+              src= "/src/Images/pic.png"
               description="Sample project will be displayed here."
               
             />
             <ProductItem
               title="Project1"
               href="#"
-              src="#"
+              src="/src/Images/pic.png"
               description="Sample project will be displayed here."
             />
             <ProductItem
               title="Project1"
               href="#"
-              src="#"
+              src="/src/Images/pic.png"
               description="Sample project will be displayed here."
             />
             <ProductItem
               title="Project1"
               href="#"
-              src="#"
+              src="/src/Images/pic.png"
               description="Sample project will be displayed here."
             />
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Blogs">
-          <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/hobby">Tech Blogs</HoveredLink>
-            <HoveredLink href="/individual">AI Blogs</HoveredLink>
-            
-          </div>
-        </MenuItem>
+        <Link href="/blogs">
+            Blogs
+          </Link>
       </Menu>
     </div>
   );

@@ -1,8 +1,10 @@
 import React from 'react'
+import FitText from './FitText'
 
 export default function Footer() {
   return (
     <div>
+     
       <footer className="bg-dark" aria-labelledby="footer-heading">
   <h2 id="footer-heading" className="sr-only">
     Footer
@@ -183,21 +185,11 @@ export default function Footer() {
       </span>
     </div>
     <div className="mt-8 md:mt-0 md:order-1">
-      <span className="mt-2 text-sm font-light text-gray-500">
-        Copyright © 2020 - 2021
-        <a
-          href="#_"
-          className="mx-2 text-wickedblue hover:text-gray-500"
-          rel="noopener noreferrer"
-        >
-          @unwrappedHQ
-        </a>
-        . Since 2020
-      </span>
+      
     </div>
   </div>
 </footer>
-
+<FitText/>
     </div>
   )
 }

@@ -8,16 +8,20 @@ import ScreenFitText from "@/components/ScreenFitText";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import AboutSection from "@/components/AboutSection";
 export default function Home() {
   return (
-    <div className="max-w-1560 mx-auto">
+    <div className="">
       {/* <Navbar/> */}
-      <NavbarDemo/>
+      <Navbar/>
+      {/* <NavbarDemo/> */}
       <BackgroundBoxesDemo/>
-      <AboutMe/>
+      <AboutSection/>
+      {/* <AboutMe/> */}
       
       <GoogleGeminiEffectDemo/>
     <Footer/>
+    
     </div>
   );
 }

@@ -7,7 +7,7 @@ const words = `Hello! I'm Vedant Mute, an engineering student with a passion for
 const AboutMe = () => {
   return (
     <>
-      <div className="heading text-left mx-14 my-5 text-5xl py-5 border-b border-gray-700">About Me</div>
+      
       <div style={{ display: 'flex', justifyContent: 'center', margin: '0 auto' }}>
         <div style={{ flex: '0 0 50%' }}>
           {/* Left Div Content */}
@@ -32,7 +32,7 @@ const AboutMe = () => {
         </div>
       </div>
       {/* TECH STACK PAGE STARTS HERE */}
-      <div className="heading text-left mx-14 my-5 text-5xl py-5 border-b border-gray-700">My Skills</div>
+      <div className="heading text-left  my-5 text-5xl py-5 border-b mx-auto lg:max-w-7xl w-full border-gray-700">My Skills</div>
       <StickyScrollRevealDemo />
     </>
   );

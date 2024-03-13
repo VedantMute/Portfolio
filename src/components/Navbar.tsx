@@ -23,13 +23,13 @@ const Navbar = () => {
     }
 
     return (
-      <header className={`fixed top-0 inset-x-0 z-50 h-16 flex items-center rounded-2xl bg-black m-4 ${scrollPosition > 15 ? 'm-0' : ''}`}>
+      <header className={`fixed top-0 inset-x-0 z-50 h-16 flex items-center rounded-2xl bg-slate-950 m-4 ${scrollPosition > 15 ? 'm-0' : ''}`}>
       <div className="mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 h-full items-center">
           <nav className="flex justify-between items-center h-full">
               <div className="flex min-w-max items-center">
                   <Link href="/" className="flex items-center gap-x-4 text-2xl font-semibold text-gray-700 dark:text-gray-300">
                       <div className="flex items-center -space-x-3 font-semibold">
-                          <span className="h-6 aspect-square bg-emerald-600 dark:bg-emerald-400 rounded-full flex" />
+                          <span className="h-6 aspect-square bg-yellow-600 dark:bg-yellow-400 rounded-full flex" />
                           <span className="h-6 aspect-square bg-gray-600 dark:bg-white rounded-full flex" />
                       </div>
                       Vedant
@@ -77,7 +77,7 @@ const Navbar = () => {
               <div className="flex items-center justify-end relative z-60 lg:hidden">
                   <button onClick={() => {
                       toggleNavbar()
-                  }} className="p-3 rounded-full bg-emerald-600 dark:bg-emerald-500 outline-none w-12 aspect-square flex flex-col relative justify-center items-center">
+                  }} className="p-3 rounded-full bg-slate-700 dark:bg-slate-700 outline-none w-12 aspect-square flex flex-col relative justify-center items-center">
                       <span className="sr-only">
                           toggle navbar
                       </span>

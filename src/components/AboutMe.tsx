@@ -11,7 +11,7 @@ const AboutMe = () => {
       <div style={{ display: 'flex', justifyContent: 'center', margin: '0 auto' }}>
         <div style={{ flex: '0 0 50%' }}>
           {/* Left Div Content */}
-          <img src="#" alt="" />
+         
         </div>
         <div style={{ flex: '0 0 50%' }}>
           {/* Right Div Content */}

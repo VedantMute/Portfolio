@@ -8,7 +8,10 @@ const AboutSection = () => {
 return (
     <>
     <section className="py-24">
-        <div className="heading lg:mx-auto lg:max-w-7xl w-full text-left md:p-4 lg:text-center my-5 text-5xl py-5 border-b border-gray-700">About Me</div>
+        
+        <div className="mx-auto max-w-7xl" >
+            <div className="px-8 py-2 text-3xl border-b border-gray-700 lg:text-5xl lg:px-0 ">About Me 🙋‍♂️</div>
+        </div>
         <div className="max-w-7xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5 flex gap-16 flex-col sm:flex-row-reverse md:flex-row md:items-center">
             <Image src="/pic.jpg" width={1900} height={1200} alt="happy team work" className="w-full h-auto md:w-1/2 md:h-full object-cover rounded-lg order-2 md:order-1" />
             <div className="space-y-10 md:order-2">
@@ -54,7 +57,9 @@ return (
             </div>
         </div>
     </section>
-    <div className="heading text-left  my-5 text-5xl py-5 border-b mx-auto lg:max-w-7xl w-full border-gray-700">My Skills</div>
+    <div className="mx-auto max-w-7xl" >
+            <div className="px-8 py-2 text-3xl border-b border-gray-700 lg:text-5xl lg:px-0 ">My Skills 🤹</div>
+        </div>
       <StickyScrollRevealDemo />
     </>
 )

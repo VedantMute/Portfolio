@@ -22,9 +22,8 @@ const GradientText = () => {
   };
 
   return (
-    <h1 className="text-indigo-950 z-20 dark:text-white text-7xl/snug sm:text-6xl/tight lg:text-5xl/tight xl:text-6xl/tight font-semibold text 2xl:text-6xl">
-    Vedant Mute
-</h1>
+    <h1 className="text-7xl md:text-7xl z-20 lg:text-7xl/tight xl:text-7xl/tight text-gray-900 dark:text-white font-bold max-w-4xl capitalize">
+Vedant Mute</h1>
 
   );
 };

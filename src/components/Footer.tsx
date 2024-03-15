@@ -5,10 +5,8 @@ export default function Footer() {
   return (
     <div>
      
-      <footer className="bg-dark" aria-labelledby="footer-heading">
-  <h2 id="footer-heading" className="sr-only">
-    Footer
-  </h2>
+      <footer className="bg-slate-950" aria-labelledby="footer-heading">
+
   <div className="px-5 py-12 mx-auto max-w-7xl lg:py-16 md:px-12 lg:px-20">
     <div className="xl:grid xl:grid-cols-3 xl:gap-8">
       <div className="xl:col-span-1">
@@ -115,9 +113,42 @@ export default function Footer() {
           <div className="w-full mt-12 md:mt-0">
             <div className="mt-8 lg:justify-end xl:mt-0">
               <h3 className="font-semibold leading-6 uppercase text-gray-500">
-                Connect with Me.
+                FIND ME ON
               </h3>
-              
+              <ul role="list" className="mt-4 space-y-3">
+              <li>
+                <a
+                  href="#_"
+                  className="text-sm text-gray-500 hover:text-blue-600"
+                >
+                  LinkedIn
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#_"
+                  className="text-sm text-gray-500 hover:text-blue-600"
+                >
+                  x.com
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#_"
+                  className="text-sm text-gray-500 hover:text-blue-600"
+                >
+                  Medium
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#_"
+                  className="text-sm text-gray-500 hover:text-blue-600"
+                >
+                  Discord
+                </a>
+              </li>
+            </ul>
               
             </div>
           </div>

@@ -9,6 +9,7 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import AboutSection from "@/components/AboutSection";
+import ContactMe from "@/components/ContactMe";
 export default function Home() {
   return (
     <div className="">
@@ -20,6 +21,7 @@ export default function Home() {
       {/* <AboutMe/> */}
       
       <GoogleGeminiEffectDemo/>
+      <ContactMe/>
     <Footer/>
     
     </div>

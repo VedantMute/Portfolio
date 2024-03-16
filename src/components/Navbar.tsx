@@ -43,7 +43,7 @@ const Navbar = () => {
         `}>
                   <ul className="flex flex-col gap-y-5 text-gray-700 dark:text-gray-300 lg:items-center lg:flex-row lg:gap-x-5 lg:h-full lg:justify-center lg:flex-1">
                       <li>
-                          <Link href="#" className="transition ease-linear hover:text-gray-900 dark:hover:text-white">
+                          <Link href="/" className="transition ease-linear hover:text-gray-900 dark:hover:text-white">
                               Home
                           </Link>
                       </li>
@@ -64,7 +64,7 @@ const Navbar = () => {
                       </li>
                   </ul>
                   <div className="w-full flex sm:w-max lg:min-w-max lg:items-center">
-                      <Link href="#" className="flex justify-center gap-x-3 items-center text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white
+                      <Link href="https://drive.google.com/file/d/1DxRBomeIHuTZFsdMQeTb-QyipNw_SKX7/view?usp=sharing" className="flex justify-center gap-x-3 items-center text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white
                   border-b bg-gray-700 dark:border-blue-300 hover:border-b-gray-900 dark:hover:border-b-white bg-transparent">
                           Get Resume
                           <span>

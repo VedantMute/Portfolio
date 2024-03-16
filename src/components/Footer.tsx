@@ -26,7 +26,7 @@ export default function Footer() {
             />
           </svg>{" "}
         </a>
-        <p className="w-1/2 mt-2 text-sm text-gray-500">Unwrapped your mind! <br />Beta version 0.0.7</p>
+        <p className="w-1/2 mt-2 text-sm text-gray-500">Unwrapped your mind! <br /><span className="bg-indigo-50 dark:bg-gray-900 dark:text-indigo-300 inline-block border border-dashed border-indigo-600  ">Beta Version 0.0.7</span></p>
       </div>
       <div className="grid grid-cols-2 gap-8 mt-12 xl:mt-0 xl:col-span-2">
         <div className="md:grid md:grid-cols-2 md:gap-8">

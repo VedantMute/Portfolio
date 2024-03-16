@@ -9,6 +9,11 @@ return (
     <>
 
       <section className="relative pt-20 lg:pt-24 pb-20 bg-zinc-950">
+      <div className="absolute min-w-[300px] w-[48%] md:w-2/5 aspect-square rounded-full bg-gradient-to-l from-slate-950/50 left-0 blur-3xl   translate-y-[-100%] -translate-x-[40%] bottom-0">
+                    <div className="inset-[10%] rounded-full bg-gradient-to-r from-blue-400/40">
+                        <div className="absolute inset-[20%] rounded-full bg-gradient-to-r from-zinc-900" />
+                    </div>
+                </div>
                 <div className="absolute top-0 inset-x-0 h-64 flex items-start">
                     <div className="h-24 w-2/3 bg-gradient-to-br from-blue-500 opacity-20 blur-2xl dark:from-[#0c1cac] dark:invisible dark:opacity-40">
                     </div>
@@ -22,10 +27,10 @@ return (
             
         </div>
         <div className="max-w-7xl  mx-auto px-5 sm:px-10 md:px-12 lg:px-5 flex gap-16 flex-col sm:flex-row-reverse md:flex-row md:items-center">
-            <Image src="/pic.jpg" width={1900} height={1200} alt="happy team work" className="w-full h-auto md:w-1/2 md:h-full object-cover rounded-lg order-2 md:order-1" />
+            <Image src="/pic.jpg" width={1900} height={1200} alt="happy team work" className="w-full h-auto md:w-1/2 md:h-full object-cover z-20 rounded-lg order-2 md:order-1" />
             <div className="space-y-10 md:order-2">
                 
-            <div className="px-5 py-2 text-3xl border-b border-gray-700 lg:text-5xl lg:px-0 "><h1 className="text-4xl sm:px-8 lg:px-3 md:text-5xl lg:text-6xl/tight xl:text-7xl/tight text-gray-900 dark:text-white font-bold max-w-4xl capitalize sm:text-center lg:text-left">
+            <div className="px-5 mx-4 py-2 text-3xl border-b border-gray-700 lg:text-5xl lg:px-0 "><h1 className="text-4xl sm:px-6 lg:px-3 md:text-5xl lg:text-6xl/tight xl:text-7xl/tight text-gray-900 dark:text-white font-bold max-w-4xl capitalize sm:text-center lg:text-left">
                             About <span className="text-slate-500">Me</span>
                         </h1></div>
                 <TextGenerateEffect words={words} />
@@ -69,7 +74,7 @@ return (
         </div>
     </section>
     <div className="mx-auto max-w-7xl" >
-            <div className="px-6 py-2 mx-8 text-3xl border-b border-gray-700 lg:text-5xl lg:px-0 "><h1 className="text-4xl sm:px-8 lg:px-3 md:text-5xl lg:text-6xl/tight xl:text-7xl/tight text-gray-900 dark:text-white font-bold max-w-4xl capitalize">
+            <div className="px-6 py-2 mx-8 text-3xl border-b border-gray-700 lg:text-5xl lg:px-0 "><h1 className="text-4xl sm:px-8 lg:px-3 md:text-5xl lg:text-6xl/tight xl:text-7xl/tight text-gray-900 dark:text-white font-bold max-w-4xl capitalize ">
                             My <span className="text-slate-500">Skills</span>
                         </h1></div>
         </div>

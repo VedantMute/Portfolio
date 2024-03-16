@@ -52,32 +52,32 @@ const BlogCard: React.FC<BlogCardProps> = ({ cover, published_at, title, summary
 const posts = [
   {
     id: 1,
-    cover: "/images/working-on-housing-project.jpg",
-    published_at: "Jun 12, 2021",
-    title: "How to Structure your ReactJs Application like a Legend",
+    cover: "/github-upload-blog.png",
+    published_at: "Mar 8, 2024",
+    title: "How to setup GitHub from your pc full guide",
     summary:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius error magni ipsam earum ",
+      "This guide should help you set up GitHub on your PC and start collaborating on projects or managing your own code repositories ",
   },
   {
     id: 2,
-    cover: "/images/working-on-housing-project.jpg",
-    published_at: "Jun 12, 2021",
-    title: "You're probably fetching data in the wrong way",
+    cover: "/arduino-blogs.png",
+    published_at: "Mar 10, 2024",
+    title: "Controlling an LED over Wi-Fi with ESP8266 and Arduino",
     summary:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius error magni ipsam earum ",
+      "In this blog post, we’ll explore how to control an LED using the ESP8266 Wi-Fi module and Arduino. This project will all ",
   },
 ];
 
 const Blogs = () => {
   return (
-    <section className="py-20 bg-black">
-      <div className="max-w-7xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5 space-y-14">
+    <section className="py-20  bg-black">
+      <div className="max-w-7xl mx-auto px-5 py-10 sm:px-10 md:px-12 lg:px-5 space-y-14">
         <div className="text-center space-y-6 max-w-2xl mx-auto">
           <h1 className="text-5xl font-bold text-gray-900 dark:text-white capitalize">
-            Most recent Articles
+            Most recent <span className="text-slate-500"> Articles</span>
           </h1>
           <p className="text-gray-700 dark:text-gray-300">
-          Captivating visuals and engaging content, our Blogs section invites you to explore, learn, and grow. Fuel your passion for discovery and stay informed with our latest insights. Dive in and discover a world of endless possibilities!
+          Captivating visuals and engaging content, our Blogs section invites you to explore, learn, and grow. Fuel your passion for discovery and stay informed with our latest insights. 
 
 
 

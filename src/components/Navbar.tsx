@@ -1,4 +1,5 @@
-"use client";import Link from 'next/link'
+"use client";
+import Link from 'next/link'
 import { useState, useEffect } from 'react'
 
 const Navbar = () => {
@@ -52,20 +53,20 @@ const Navbar = () => {
                           </Link>
                       </li>
                       <li>
-                          <Link href="#" className="transition ease-linear hover:text-gray-900 dark:hover:text-white">
+                          <Link href="/projects" className="transition ease-linear hover:text-gray-900 dark:hover:text-white">
                               Projects
                           </Link>
                       </li>
                       <li>
-                          <Link href="#" className="transition ease-linear hover:text-gray-900 dark:hover:text-white">
-                              Contact Me
+                          <Link href="/blogs" className="transition ease-linear hover:text-gray-900 dark:hover:text-white">
+                              Blogs
                           </Link>
                       </li>
                   </ul>
                   <div className="w-full flex sm:w-max lg:min-w-max lg:items-center">
                       <Link href="#" className="flex justify-center gap-x-3 items-center text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white
                   border-b bg-gray-700 dark:border-blue-300 hover:border-b-gray-900 dark:hover:border-b-white bg-transparent">
-                          Get in touch
+                          Get Resume
                           <span>
                               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
                                   <path fillRule="evenodd" d="M5 10a.75.75 0 01.75-.75h6.638L10.23 7.29a.75.75 0 111.04-1.08l3.5 3.25a.75.75 0 010 1.08l-3.5 3.25a.75.75 0 11-1.04-1.08l2.158-1.96H5.75A.75.75 0 015 10z" clipRule="evenodd" />

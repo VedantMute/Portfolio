@@ -1,6 +1,7 @@
 "use client";
 import { cn } from "../../utils/cn";
 import { motion, MotionValue } from "framer-motion";
+import Link from "next/link";
 import React from "react";
 
 const transition = {
@@ -21,16 +22,17 @@ export const GoogleGeminiEffect = ({
 }) => {
   return (
     <div className={cn("sticky top-80", className)}>
-      <p className="text-lg md:text-4xl font-normal pb-4 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 to-neutral-300">
-        {title || `Updating Soon!`}
+      <p className="text-4xl md:text-5xl lg:text-6xl/tight xl:text-7xl/tight text-gray-900 dark:text-white font-bold pb-4 text-center bg-clip-text text-transparent  bg-gradient-to-b from-neutral-100 to-neutral-300">
+        {title || `View Projects`}
       </p>
+      
       <p className="text-xs md:text-xl font-normal text-center text-neutral-400 mt-4 max-w-lg mx-auto">
         {description ||
-          `Under development, Watch this space again soon.`}
+          `Please visit projects page to view my cool stuff by clicking the button below.`}
       </p>
       <div className="w-full h-[890px] -top-60 md:-top-40  flex items-center justify-center bg-red-transparent absolute ">
         <button className="font-bold bg-white rounded-full md:px-4 md:py-2 px-2 py-1 md:mt-24 mt-8 z-30 md:text-base text-black text-xs  w-fit mx-auto ">
-          <a href="https://drive.google.com/file/d/1DxRBomeIHuTZFsdMQeTb-QyipNw_SKX7/view?usp=sharing">View Resume</a>
+          <Link href="/projects">Go to Projects</Link>
         </button>
       </div>
       <svg

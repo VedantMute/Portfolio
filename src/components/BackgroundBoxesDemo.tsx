@@ -36,7 +36,8 @@ export function BackgroundBoxesDemo() {
       <Boxes />
       <GradientText/>
       <p className="pt-5 md:text-xl text-center mt-2 text-neutral-300 relative z-20">
-      Web developer | Java programmer | Data analyst
+      <span className="bg-indigo-50 dark:bg-gray-900 dark:text-indigo-300 inline-block border border-dashed border-indigo-600 sm:text-xl sm:px-1 sm:mx-1 py-2">Web Developer | Java Programmer | Data Analyst</span>
+      
       </p>
     </div>
   );

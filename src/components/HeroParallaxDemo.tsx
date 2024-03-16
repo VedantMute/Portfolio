@@ -8,95 +8,95 @@ export function HeroParallaxDemo() {
 export const products = [
   {
     title: "Moonbeam",
-    link: "https://gomoonbeam.com",
+    link: "https://vedantmute.netlify.app/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+      "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",
   },
   {
     title: "Cursor",
-    link: "https://cursor.so",
+    link: "https://vedantmute.netlify.app/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+      "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",
   },
   {
     title: "Rogue",
-    link: "https://userogue.com",
+    link: "https://vedantmute.netlify.app/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/rogue.png",
+      "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",
   },
 
   {
     title: "Editorially",
-    link: "https://editorially.org",
+    link: "https://vedantmute.netlify.app/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editorially.png",
+      "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",
   },
   {
     title: "Editrix AI",
-    link: "https://editrix.ai",
+    link: "https://vedantmute.netlify.app/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editrix.png",
+      "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",
   },
   {
     title: "Pixel Perfect",
-    link: "https://app.pixelperfect.quest",
+    link: "https://vedantmute.netlify.app/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
+      "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",
   },
 
   {
     title: "Algochurn",
-    link: "https://algochurn.com",
+    link: "https://vedantmute.netlify.app/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
+      "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",
   },
   {
     title: "Aceternity UI",
-    link: "https://ui.aceternity.com",
+    link: "https://vedantmute.netlify.app/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
+      "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",
   },
   {
     title: "Tailwind Master Kit",
-    link: "https://tailwindmasterkit.com",
+    link: "https://vedantmute.netlify.app/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
+      "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",
   },
   {
     title: "SmartBridge",
-    link: "https://smartbridgetech.com",
+    link: "https://vedantmute.netlify.app/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
+      "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",
   },
   {
     title: "Renderwork Studio",
-    link: "https://renderwork.studio",
+    link: "https://vedantmute.netlify.app/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/renderwork.png",
+      "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",
   },
 
   {
     title: "Creme Digital",
-    link: "https://cremedigital.com",
+    link: "https://vedantmute.netlify.app/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
+      "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",
   },
   {
     title: "Golden Bells Academy",
-    link: "https://goldenbellsacademy.com",
+    link: "https://vedantmute.netlify.app/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png",
+      "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",
   },
   {
     title: "Invoker Labs",
-    link: "https://invoker.lol",
+    link: "https://vedantmute.netlify.app/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/invoker.png",
+      "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",
   },
   {
     title: "E Free Invoice",
-    link: "https://efreeinvoice.com",
+    link: "https://vedantmute.netlify.app/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/efreeinvoice.png",
+      "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",
   },
 ];

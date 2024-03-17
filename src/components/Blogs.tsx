@@ -101,8 +101,9 @@ const Blogs = () => {
                 for more.
               </h1>
               <p className="text-gray-700 dark:text-gray-300 text-center">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Laudantium, rem eius dicta
+              <button className="font-bold border rounded bg-gray-950 hover:bg-slate-700 md:px-4 md:py-2 px-2 py-1 md:mt-24 mt-8 z-30 md:text-base text-light text-xs  w-fit mx-auto ">
+          <Link href="/">Join Now</Link>
+        </button>
               </p>
               
             </div>

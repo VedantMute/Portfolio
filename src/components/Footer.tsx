@@ -1,6 +1,6 @@
 import React from 'react'
 import FitText from './FitText'
-
+import Link from "next/link";
 export default function Footer() {
   return (
     <div>
@@ -10,7 +10,7 @@ export default function Footer() {
   <div className="px-5 py-12 mx-auto max-w-7xl lg:py-16 md:px-12 lg:px-20">
     <div className="xl:grid xl:grid-cols-3 xl:gap-8">
       <div className="xl:col-span-1">
-        <a
+        <Link
           href="/"
           className="text-lg font-bold tracking-tighter transition duration-500 ease-in-out transform text-gray-500 tracking-relaxed lg:pr-8"
         >
@@ -40,7 +40,7 @@ export default function Footer() {
 </defs>
 </svg>
 {" "}
-        </a>
+        </Link>
         <p className="w-1/2 mt-2 text-sm text-gray-500">Unwrapped your mind! <br /><span className="bg-indigo-50 dark:bg-gray-900 dark:text-indigo-300 inline-block border border-dashed border-indigo-600  px-2 ">Beta Version 0.0.11</span></p>
       </div>
       <div className="grid grid-cols-2 gap-8 mt-12 xl:mt-0 xl:col-span-2">
@@ -51,36 +51,36 @@ export default function Footer() {
             </h3>
             <ul role="list" className="mt-4 space-y-3">
               <li>
-                <a
+                <Link
                   href="/"
                   className="text-sm text-gray-500 hover:text-blue-600"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/about"
                   className="text-sm text-gray-500 hover:text-blue-600"
                 >
                   About Me
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/projects"
                   className="text-sm text-gray-500 hover:text-blue-600"
                 >
                   Projects
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/blogs"
                   className="text-sm text-gray-500 hover:text-blue-600"
                 >
                   Blogs
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -90,36 +90,36 @@ export default function Footer() {
             </h3>
             <ul role="list" className="mt-4   md:gap-8 space-y-3">
               <li>
-                <a
+                <Link
                   href="https://github.com/VedantMute/VedantMute"
                   className="text-sm text-gray-500 hover:text-blue-600"
                 >
                   GitHub
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="https://www.cloudskillsboost.google/"
                   className="text-sm text-gray-500 hover:text-blue-600"
                 >
                   Google Cloud Profile
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/aboutsite"
                   className="text-sm text-gray-500 hover:text-blue-600"
                 >
                   About Site
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/aboutsite"
                   className="text-sm text-gray-500 hover:text-blue-600"
                 >
                   SiteMap
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -132,36 +132,36 @@ export default function Footer() {
               </h3>
               <ul role="list" className="mt-4 space-y-3">
               <li>
-                <a
+                <Link
                   href="/"
                   className="text-sm text-gray-500 hover:text-blue-600"
                 >
                   LinkedIn
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/"
                   className="text-sm text-gray-500 hover:text-blue-600"
                 >
                   x.com
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/"
                   className="text-sm text-gray-500 hover:text-blue-600"
                 >
                   Medium
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/"
                   className="text-sm text-gray-500 hover:text-blue-600"
                 >
                   Discord
-                </a>
+                </Link>
               </li>
             </ul>
               

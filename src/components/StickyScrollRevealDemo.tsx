@@ -16,7 +16,7 @@ const content = [
   {
     title: "Data Analyst",
     description:
-      "Navigating the Java landscape with a solid foundation in Data Structures and Algorithms (DSA), specializing in the art of JDBC and MySQL",
+      "Proficient in data analysis utilizing numpy, pandas, matplotlib, and seaborn for visualization. Skilled in applying machine learning algorithms to derive meaningful insights.",
   },
   {
     title: "Cloud and AI",

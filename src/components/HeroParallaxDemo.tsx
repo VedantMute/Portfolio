@@ -6,56 +6,58 @@ export function HeroParallaxDemo() {
   return <HeroParallax products={products} />;
 }
 export const products = [
+  
+  {
+    title: "BookStore",
+    link: "https://vedantmute.netlify.app/",
+    thumbnail:
+      "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",
+  },
   {
     title: "Vedant Portfolio",
     link: "https://vedantmute.netlify.app/",
     thumbnail:
-      "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",
+      "https://github.com/Vedant-edu/Portfolio/blob/main/public/portfolio_projects.png?raw=true",
   },
   {
-    title: "Cursor",
+    title: "Sahyadri DCLLP",
+    link: "https://sahyadri-llp.netlify.app/",
+    thumbnail:
+      "https://github.com/Vedant-edu/Portfolio/blob/main/public/sdcllp_projects.png?raw=true",
+  },
+ 
+  {
+    title: "Invoice to PDF",
+    link: "https://github.com/VedantMute/Invoice-Maker/tree/master",
+    thumbnail:
+      "https://github.com/VedantMute/Invoice-Maker/blob/master/data-input.png?raw=true",
+  },
+  {
+    title: "BookStore",
     link: "https://vedantmute.netlify.app/",
     thumbnail:
       "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",
   },
   {
-    title: "Rogue",
+    title: "Vedant Portfolio",
     link: "https://vedantmute.netlify.app/",
     thumbnail:
-      "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",
+    "https://github.com/Vedant-edu/Portfolio/blob/main/public/portfolio_projects.png?raw=true",
   },
-
+  
   {
-    title: "Editorially",
-    link: "https://vedantmute.netlify.app/",
+    title: "Invoice to PDF",
+    link: "https://github.com/VedantMute/Invoice-Maker/tree/master",
     thumbnail:
-      "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",
-  },
-  {
-    title: "Editrix AI",
-    link: "https://vedantmute.netlify.app/",
-    thumbnail:
-      "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",
+    "https://github.com/VedantMute/Invoice-Maker/blob/master/data-input.png?raw=true",
   },
   {
-    title: "Pixel Perfect",
-    link: "https://vedantmute.netlify.app/",
+    title: "Sahyadri DCLLP",
+    link: "https://sahyadri-llp.netlify.app/",
     thumbnail:
-      "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",
+      "https://github.com/Vedant-edu/Portfolio/blob/main/public/sdcllp_projects.png?raw=true",
   },
-
-  {
-    title: "Algochurn",
-    link: "https://vedantmute.netlify.app/",
-    thumbnail:
-      "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",
-  },
-  {
-    title: "Aceternity UI",
-    link: "https://vedantmute.netlify.app/",
-    thumbnail:
-      "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",
-  },
+  
   {
     title: "Tailwind Master Kit",
     link: "https://vedantmute.netlify.app/",
@@ -75,28 +77,4 @@ export const products = [
       "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",
   },
 
-  {
-    title: "Creme Digital",
-    link: "https://vedantmute.netlify.app/",
-    thumbnail:
-      "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",
-  },
-  {
-    title: "Golden Bells Academy",
-    link: "https://vedantmute.netlify.app/",
-    thumbnail:
-      "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",
-  },
-  {
-    title: "Invoker Labs",
-    link: "https://vedantmute.netlify.app/",
-    thumbnail:
-      "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",
-  },
-  {
-    title: "E Free Invoice",
-    link: "https://vedantmute.netlify.app/",
-    thumbnail:
-      "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",
-  },
 ];

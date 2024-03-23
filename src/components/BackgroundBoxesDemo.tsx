@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
 import { Boxes } from "@/components/ui/background-boxes";
-import { Gotu } from 'next/font/google';
+import { Exo_2 } from 'next/font/google';
 
-const roboto = Gotu({
-  weight: '400',
+const roboto = Exo_2({
+  weight: '700',
   subsets: ['latin'],
 });
 const GradientText = () => {
@@ -26,7 +26,7 @@ const GradientText = () => {
   };
 
   return (
-    <h1 className={`text-7xl md:text-7xl z-20 lg:text-9xl/tight font-bold xl:text-8xl/tight text-transparent bg-clip-text bg-gradient-to-bl from-light-700 to-slate-800 dark:from-slate-300/90 dark:to-slate-100 max-w-4xl capitalize ${roboto.className}`}>
+    <h1 className={`text-6xl md:text-7xl z-20 lg:text-9xl/tight font-bold xl:text-8xl/tight text-transparent bg-clip-text bg-gradient-to-bl from-light-700 to-slate-800 dark:from-slate-300/90 dark:to-slate-100 max-w-4xl capitalize ${roboto.className}`}>
     Vedant Mute
   </h1>
   

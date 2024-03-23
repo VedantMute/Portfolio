@@ -26,7 +26,7 @@ const BlogCard: React.FC<BlogCardProps> = ({ cover, published_at, title, summary
         />
       </div>
       <div className="flex flex-col p-5 relative space-y-4">
-        <Link href="#" passHref>
+        <Link href="https://medium.com/@TheVedant" passHref>
           <p className="text-xl/tight font-semibold text-gray-800 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-500">
             {title}
           </p>
@@ -57,7 +57,7 @@ const BlogCard: React.FC<BlogCardProps> = ({ cover, published_at, title, summary
 const posts = [
   {
     id: 1,
-    cover: "/github-upload-blog.png",
+    cover: "/github_blogs.jpeg",
     published_at: "Mar 8, 2024",
     title: "How to setup GitHub from your pc full guide",
     summary:
@@ -65,7 +65,7 @@ const posts = [
   },
   {
     id: 2,
-    cover: "/arduino-blogs.png",
+    cover: "/led_arduino.jpeg",
     published_at: "Mar 10, 2024",
     title: "Controlling an LED over Wi-Fi with ESP8266 and Arduino",
     summary:
@@ -99,7 +99,7 @@ const Blogs = () => {
             <div className="absolute w-14 h-14 rounded-full bg-gradient-to-bl from-blue-600 to-violet-500 blur-2xl z-10 -bottom-7 -right-7 opacity-40"></div>
             <div className="lg:h-full flex flex-col items-center text-center justify-center space-y-5 mx-auto max-w-2xl">
               <h1 className="font-bold text-gray-900 dark:text-white text-3xl">
-                Join Me on{" "}
+                Follow Me on{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-bl from-blue-700 to-violet-400 dark:from-blue-300 dark:to-violet-400">
                   Medium
                 </span>{" "}
@@ -116,7 +116,7 @@ const Blogs = () => {
         </div>
         <div className="flex justify-center">
           <Link
-            href="#"
+            href="https://medium.com/@TheVedant"
             className="px-6 py-3 border rounded-lg border-gray-100 dark:border-gray-900 text-blue-600 dark:text-gray-300 flex items-center gap-x-3"
           >
             See More

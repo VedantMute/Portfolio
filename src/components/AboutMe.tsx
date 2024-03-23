@@ -8,6 +8,7 @@ const AboutMe = () => {
   return (
     <>
       
+      <div className='mx-auto lg:max-w-screen-2xl'>
       <div style={{ display: 'flex', justifyContent: 'center', margin: '0 auto' }}>
         <div style={{ flex: '0 0 50%' }}>
           {/* Left Div Content */}
@@ -34,6 +35,7 @@ const AboutMe = () => {
       {/* TECH STACK PAGE STARTS HERE */}
       <div className="heading text-left  my-5 text-5xl py-5 border-b mx-auto lg:max-w-7xl w-full border-gray-700">My Skills</div>
       <StickyScrollRevealDemo />
+      </div>
     </>
   );
 };

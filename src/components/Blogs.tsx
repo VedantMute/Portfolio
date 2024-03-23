@@ -1,6 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Exo_2 } from 'next/font/google';
 
+const roboto = Exo_2({
+  weight: '400',
+  subsets: ['latin'],
+});
 interface BlogCardProps {
   cover: string;
   published_at: string;
@@ -73,8 +78,8 @@ const Blogs = () => {
     <section className="py-20  bg-black">
       <div className="max-w-7xl mx-auto px-5 py-10 sm:px-10 md:px-12 lg:px-5 space-y-14">
         <div className="text-center space-y-6 max-w-2xl mx-auto">
-          <h1 className="text-5xl font-bold text-gray-900 dark:text-white capitalize">
-            Most recent <span className="text-slate-500"> Articles</span>
+          <h1 className={`text-5xl font-bold text-gray-900 dark:text-white capitalize  ${roboto.className}`}>
+            Most recent  <span className="text-slate-500"> Articles</span>
           </h1>
           <p className="text-gray-700 dark:text-gray-300">
           Captivating visuals and engaging content, our Blogs section invites you to explore, learn, and grow. Fuel your passion for discovery and stay informed with our latest insights. 

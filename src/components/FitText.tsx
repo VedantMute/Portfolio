@@ -46,7 +46,7 @@ const FitText: React.FC = () => {
 
   return (
     <div
-      className="flex py-2 w-full items-center overflow-hidden bg-slate-950"
+      className="mx-auto lg:max-w-screen-2xl flex w-full items-center overflow-hidden bg-slate-950"
       ref={containerRef}
     >
       <span

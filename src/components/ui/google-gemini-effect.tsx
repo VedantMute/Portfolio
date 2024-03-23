@@ -3,7 +3,12 @@ import { cn } from "../../utils/cn";
 import { motion, MotionValue } from "framer-motion";
 import Link from "next/link";
 import React from "react";
+import { Exo_2 } from 'next/font/google';
 
+const roboto = Exo_2({
+  weight: '400',
+  subsets: ['latin'],
+});
 const transition = {
   duration: 0,
   ease: "linear",
@@ -22,7 +27,7 @@ export const GoogleGeminiEffect = ({
 }) => {
   return (
     <div className={cn("sticky top-80", className)}>
-      <p className="text-4xl md:text-5xl lg:text-6xl/tight xl:text-7xl/tight text-gray-900 dark:text-white font-bold pb-4 text-center bg-clip-text text-transparent  bg-gradient-to-b from-neutral-100 to-neutral-300">
+      <p className={`text-4xl md:text-5xl lg:text-6xl/tight xl:text-7xl/tight text-gray-900 dark:text-white font-bold pb-4 text-center bg-clip-text text-transparent  bg-gradient-to-b  from-neutral-100 to-neutral-300 ${roboto.className}`}>
         {title || `View Projects`}
       </p>
       

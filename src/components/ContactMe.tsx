@@ -3,10 +3,11 @@ import React from 'react';
 import Link from 'next/link';
 import { useState } from 'react';
 import Image from "next/image"
+import Title from './Title';
 export default function ContactMe() {
     return (
-        <div>
-            <section className="dark:bg-black-900 py-32 sm:py-36 lg:py-40 overflow-hidden h-[100dvh] min-h-max flex items-center relative">
+        <div className='mx-auto lg:max-w-screen-2xl'>
+            <section className="dark:bg-black-900 py-40 sm:py-36 lg:py-40 overflow-hidden min-h-max flex items-center relative">
                 <div className="absolute top-0 left-0 -translate-x-[54%] -translate-y-[70%] w-2/5 rounded-full aspect-square dark:bg-slate-950 backdrop-filter blur-3xl opacity-70" />
                 <div className="absolute bottom-0 right-0 translate-x-[54%] translate-y-[70%] w-2/5 rounded-full aspect-square bg-zinc-600/30 backdrop-filter blur-3xl opacity-50" />
                 <div className="absolute min-w-[300px] w-[48%] md:w-2/5 aspect-square rounded-full bg-gradient-to-r from-slate-950 right-0 -translate-y-[40%] blur-xl translate-x-[40%] top-0">
@@ -24,9 +25,7 @@ export default function ContactMe() {
                         <span className="border border-gray-500 px-3 py-0.5 rounded-full bg-gray-50 dark:bg-gray-950 bg-opacity-50 text-gray-700 dark:text-gray-300">
                             Wanna contact me!
                         </span>
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl/tight xl:text-7xl/tight text-gray-900 dark:text-white font-bold max-w-4xl capitalize ">
-                            Let&apos;s Connect
-                        </h1>
+                        <Title hProp="Let &apos; Connect" sProp="" />
                         <div className="text-left grid lg:grid-cols-3 p-6 rounded-2xl bg-gradient-to-tr border-slate-100 dark:border-slate-800  dark:bg-slate-950 bg-opacity-44 border  max-w-2xl lg:max-w-5xl mx-auto lg:divide-x divide-y lg:divide-y-0">
                     <div className="flex items-start gap-6 lg:pr-6 pb-6 lg:pb-0">
                         <div className="w-10">
@@ -54,7 +53,7 @@ export default function ContactMe() {
                                 Email
                             </h2>
                             <p className="text-gray-700 dark:text-gray-300 text-sm">
-                                hivedant@gmail.com
+                                iamvedant04@gmail.com
                             </p>
                         </div>
                     </div>

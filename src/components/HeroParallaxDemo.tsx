@@ -7,7 +7,7 @@ export function HeroParallaxDemo() {
 }
 export const products = [
   {
-    title: "Moonbeam",
+    title: "Vedant Portfolio",
     link: "https://vedantmute.netlify.app/",
     thumbnail:
       "https://cdn.iconscout.com/icon/free/png-512/free-no-image-1771002-1505134.png?f=webp&w=256",

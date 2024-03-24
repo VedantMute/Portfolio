@@ -106,7 +106,7 @@ export const Header = () => {
   return (
     <div className="max-w-7xl  relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
       <Title hProp="My Ultimate" sProp=" Projects" />
-      <p className="text-base text-center md:text-xl mt-8 dark:text-neutral-200">
+      <p className="text-base text-left px-4 md:text-xl mt-8 dark:text-neutral-200">
         As a passionate developer I love to build such
         amazing projects.
       </p>

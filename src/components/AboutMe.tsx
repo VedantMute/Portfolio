@@ -2,12 +2,13 @@ import React from 'react';
 import { TextGenerateEffectDemo } from './TextGenerateEffectDemo';
 import { TextGenerateEffect } from './ui/text-generate-effect';
 import { StickyScrollRevealDemo } from './StickyScrollRevealDemo';
+// import Hello from './Hello';
 const words = `Hello! I'm Vedant Mute, an engineering student with a passion for technology. Proficient in web development, Java programming, and AI enthusiast with expertise in data science. Excited to innovate and create through code. 
 `;
 const AboutMe = () => {
   return (
     <>
-      
+      {/* <Hello/> */}
       <div className='mx-auto lg:max-w-screen-2xl'>
       <div style={{ display: 'flex', justifyContent: 'center', margin: '0 auto' }}>
         <div style={{ flex: '0 0 50%' }}>

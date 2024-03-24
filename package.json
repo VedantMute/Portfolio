@@ -16,6 +16,7 @@
     "@mui/material": "^5.15.12",
     "@mui/styled-engine-sc": "^6.0.0-alpha.17",
     "@next/font": "^14.1.4",
+    "@splinetool/react-spline": "^2.2.6",
     "clsx": "^2.1.0",
     "flowbite-react": "^0.7.2",
     "framer-motion": "^11.0.6",

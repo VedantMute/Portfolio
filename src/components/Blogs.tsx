@@ -107,7 +107,7 @@ const Blogs = () => {
               </h1>
               <p className="text-gray-700 dark:text-gray-300 text-center">
               <button className="font-bold border rounded bg-gray-950 hover:bg-slate-700 md:px-4 md:py-2 px-2 py-1 md:mt-24 mt-8 z-30 md:text-base text-light text-xs  w-fit mx-auto ">
-          <Link href="/">Join Now</Link>
+          <Link href="https://medium.com/@TheVedant">Join Now</Link>
         </button>
               </p>
               

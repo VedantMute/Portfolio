@@ -32,7 +32,7 @@ return (
             <Image src="/pic.jpg" width={1900} height={1200} alt="happy team work" className="w-full h-auto md:w-1/2 md:h-full object-cover z-20 rounded-lg order-2 md:order-1" />
             <div className="space-y-10 md:order-2">
             <div>
-      <div className={"px-5 mx-4 py-2 text-3xl border-b border-gray-700 lg:text-5xl lg:px-0"}>
+      <div className={"sm:px-0 mx-4 py-2 text-3xl border-b border-gray-700 lg:text-5xl lg:px-0"}>
         
             <Title hProp="About" sProp="Me" />
       </div>

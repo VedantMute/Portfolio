@@ -52,6 +52,12 @@ const AllProjects = () => {
       href: "https://sahyadri-llp.netlify.app", // Example href
     },
     {
+      imageUrl: "/resume_site.png",
+      title: "Make My Resume",
+      description: "Create a resume just by editing the template and download it as a pdf.",
+      href: "https://makemyresume.netlify.app", // Example href
+    },
+    {
       imageUrl: "https://github.com/Vedant-edu/Invoice-Maker/raw/master/data-input.png",
       title: "Invoice Maker",
       description: "This site collects customer information along with item descriptions and prices, and generates a PDF invoice for it. ",

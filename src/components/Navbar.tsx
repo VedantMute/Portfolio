@@ -24,7 +24,7 @@ const Navbar = () => {
     }
 
     return (
-      <header className={`fixed top-0 inset-x-0 z-50 h-16 flex items-center rounded-2xl bg-slate-950 m-4 ${scrollPosition > 15 ? 'm-0' : ''}`}>
+      <header className={`fixed top-0 inset-x-0 z-50 h-16 flex items-center rounded-2xl bg-slate-900 m-4 ${scrollPosition > 15 ? 'm-0' : ''}`}>
       <div className="mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 h-full items-center">
           <nav className="flex justify-between items-center h-full">
               <div className="flex min-w-max items-center">

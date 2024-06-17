@@ -43,7 +43,7 @@ const AllProjects = () => {
       imageUrl: "/portfolio_projects.png",
       title: "My Portfolio website",
       description: "Built using Next.js, Tailwind CSS for rapid styling , and  components from Acertinity UI for enhanced visual appeal and functionality",
-      href: "https://vdantmute.netlify.app", // Example href
+      href: "https://vedantmute.online", // Example href
     },
     {
       imageUrl: "/sdcllp_projects.png",
@@ -52,7 +52,7 @@ const AllProjects = () => {
       href: "https://sahyadri-llp.netlify.app", // Example href
     },
     {
-      imageUrl: "/resume_site.png",
+      imageUrl: "/makeresume.png",
       title: "Make My Resume",
       description: "Create a resume just by editing the template and download it as a pdf.",
       href: "https://makemyresume.netlify.app", // Example href
@@ -62,6 +62,18 @@ const AllProjects = () => {
       title: "Invoice Maker",
       description: "This site collects customer information along with item descriptions and prices, and generates a PDF invoice for it. ",
       href: "https://github.com/VedantMute/Invoice-Maker", // Example href
+    },
+    {
+      imageUrl: "/mazhibus_site.png",
+      title: "Bus Booking MERN Project",
+      description: "A bus ticket booking site made using MERN Stack",
+      href: "https://mazhibus.netlify.app", // Example href
+    },
+    {
+      imageUrl: "/noimage.png",
+      title: "Academic mini Project",
+      description: "-",
+      href: "#", // Example href
     },
     {
       imageUrl: "/bank.png",
@@ -76,9 +88,7 @@ const AllProjects = () => {
     <section className="py-20 dark:bg-black">
       <div className="max-w-7xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5 space-y-16">
         <div className="max-w-2xl space-y-3">
-          <h1 className="text-3xl/tight sm:text-4xl/tight font-bold text-gray-900 dark:text-white">
-            Take a look at our amazing works
-          </h1>
+          
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-10 ">
           {projects.map((project, index) => (

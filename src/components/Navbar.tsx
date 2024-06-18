@@ -29,8 +29,14 @@ const Navbar = () => {
           <nav className="flex justify-between items-center h-full">
               <div className="flex min-w-max items-center">
                   <Link href="/" className="flex items-center gap-x-4 text-2xl font-semibold text-gray-700 dark:text-gray-300">
-                      
-                  Vedant
+                <div className="text-md font-bold">
+                <span className="text-yellow-400">v</span>
+                <span className="text-pink-400">e</span>
+                <span className="text-gray-400">d</span>
+                <span className="text-indigo-400">a</span>
+                <span className="text-blue-400">n</span>
+                <span className="text-green-400">t</span>
+    </div>
                   </Link>
               </div>
               <div className={`

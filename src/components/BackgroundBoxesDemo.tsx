@@ -20,7 +20,7 @@ export function BackgroundBoxesDemo() {
       </h1>
 
       <p className="pt-5 md:text-xl text-center mt-2 text-neutral-300 relative z-20">
-        <span className="bg-indigo-50 dark:bg-gray-900 dark:text-indigo-300 inline-block border border-dashed border-indigo-600 sm:text-xl sm:px-1 sm:mx-1 lg:px-5 py-2">Web Developer x Java Programmer</span>
+        <span className="bg-indigo-50 dark:bg-gray-900 dark:text-indigo-300 inline-block border border-dashed border-indigo-600 sm:text-xl sm:px-5 rounded-lg sm:mx-1 lg:px-5 py-2">Web Developer x Java Programmer</span>
       </p>
       
     </div>

@@ -14,7 +14,14 @@ export default function Footer() {
           href="/"
           className="text-lg font-bold tracking-tighter transition duration-500 ease-in-out transform text-gray-500 tracking-relaxed lg:pr-8"
         >
-         Vedant
+         <div className="text-md flex font-bold">
+                <div className="w-4 h-1 bg-yellow-400"></div>
+                <div className="w-4 h-1 bg-pink-400"></div>
+                <div className="w-4 h-1 bg-gray-400"></div>
+                <div className="w-4 h-1 bg-indigo-400"></div>
+                <div className="w-4 h-1 bg-blue-400"></div>
+                <div className="w-4 h-1 bg-green-400"></div>
+    </div>
 {" "}
         </Link>
         <p className="w-1/2 my-2 text-sm text-gray-500">Unwrapped your mind! <br /><span className="bg-indigo-50 dark:bg-gray-900 dark:text-indigo-300 inline-block border border-dashed border-indigo-600  px-2 ">Version 1.1.2</span></p>

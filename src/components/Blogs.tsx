@@ -82,12 +82,7 @@ const Blogs = () => {
             Most recent  <span className="text-slate-500"> Articles</span>
           </h1>
           <p className="text-gray-700 dark:text-gray-300">
-          Captivating visuals and engaging content, our Blogs section invites you to explore, learn, and grow. Fuel your passion for discovery and stay informed with our latest insights. 
-
-
-
-
-
+            Captivating visuals and engaging content, our Blogs section invites you to explore, learn, and grow. Fuel your passion for discovery and stay informed with our latest insights.
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 rounded-t-lg">
@@ -106,11 +101,11 @@ const Blogs = () => {
                 for more.
               </h1>
               <p className="text-gray-700 dark:text-gray-300 text-center">
-              <button className="font-bold border rounded bg-gray-950 hover:bg-slate-700 md:px-4 md:py-2 px-2 py-1 md:mt-24 mt-8 z-30 md:text-base text-light text-xs  w-fit mx-auto ">
-          <Link href="https://medium.com/@TheVedant">Join Now</Link>
-        </button>
+                <button className="font-bold border rounded bg-gray-950 hover:bg-slate-700 md:px-4 md:py-2 px-2 py-1 md:mt-24 mt-8 z-30 md:text-base text-light text-xs  w-fit mx-auto ">
+                  <Link href="https://medium.com/@TheVedant">Join Now</Link>
+                </button>
               </p>
-              
+
             </div>
           </div>
         </div>

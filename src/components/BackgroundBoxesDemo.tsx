@@ -15,7 +15,7 @@ export function BackgroundBoxesDemo() {
     <div className=" h-5/6 my-10  py-60 relative mx-auto max-w-screen-xl  w-full overflow-hidden bg-black-900 flex flex-col items-center justify-center rounded-lg">
       <Boxes />
       <div className="absolute inset-0 w-full h-full bg-black-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
-      <h1 className={`text-6xl text-gray-200 md:text-7xl z-20 lg:text-9xl/tight font-bold xl:text-8xl/tight text-transparent bg-clip-text bg-gradient-to-bl from-light-700 to-slate-800 max-w-4xl capitalize ${roboto.className}`}>
+      <h1 className={`lg:text-8xl z-20 text-6xl pl-8 lg:pl-0 ${roboto.className}`}>
         Vedant Mute
       </h1>
 

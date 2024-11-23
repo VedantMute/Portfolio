@@ -39,7 +39,7 @@ function GotoSites() {
     },
     {
       name: "SCOE Project",
-      url: "https://project112.netlify.app",
+      url: "https://project9112.netlify.app",
       description: "A comprehensive platform for student and faculty feedback. shhhh.....secret!",
     },
     {

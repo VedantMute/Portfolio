@@ -53,7 +53,7 @@ export default function ContactMe() {
                                 Email
                             </h2>
                             <p className="text-gray-700 dark:text-gray-300 text-sm">
-                                iamvedant04@gmail.com
+                                hello@vedantmute.online
                             </p>
                         </div>
                     </div>

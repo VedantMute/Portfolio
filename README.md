@@ -1,6 +1,6 @@
 **Portfolio Website Readme** 
 
-URL : https://vedantmute.netlify.app/aboutsite
+URL : https://vedantmute.online
 ---
 
 # Portfolio Website
